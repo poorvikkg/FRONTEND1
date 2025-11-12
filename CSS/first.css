@@ -1,0 +1,194 @@
+.head{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+    text-align:center;
+    margin-bottom: 20px;
+     animation: glow 2s ease-in-out infinite alternate;
+}
+.upper{
+    font-size: 50px;
+   
+    animation: colorFlow 5s linear infinite;
+}
+.lower{
+    font-size:30px;
+}
+@keyframes glow {
+  from {
+    box-shadow: 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 25px #00ffff;
+  }
+  to {
+    box-shadow: 0 0 20px #c3d2d2, 0 0 30px #c9d4d4, 0 0 35px #c9e1e1;
+  }
+}
+/* body*/
+.main{
+    height: auto;
+    width: 100%;
+   
+    color: white;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.top{
+    display: flex;
+  
+}
+.first{
+    height: 300px;
+    width:300px;
+    background-color: black;
+    margin-bottom: 40px;
+    font-size: 40px;
+    display: flex;
+    position:relative;
+    left:0px;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+     animation: glowShift 3s linear infinite;
+    
+
+}
+.second{
+     height: 300px;
+    width:300px;
+    background-color: black;
+   margin-bottom: 40px;
+    font-size: 40px;
+    display: flex;
+    position:relative;
+    left:0px;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: glowShift 3s linear infinite;
+
+   
+    
+}.third{
+    height: 300px;
+    width:300px;
+    background-color: black;
+   
+    font-size: 40px;
+    display: flex;
+    position:relative;
+    left:0px;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}.fourth{
+    height: 300px;
+    width:300px;
+    background-color: black;
+    
+    font-size: 40px;
+    display: flex;
+    position:relative;
+    left:0px;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#bgVideo{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+@keyframes glowShift {
+  0% { box-shadow: 0 0 20px #ff0000; border: 2px solid #ff0000; }
+  25% { box-shadow: 0 0 20px #ff00ff; border: 2px solid #ff00ff; }
+  50% { box-shadow: 0 0 20px #00ffff; border: 2px solid #00ffff; }
+  75% { box-shadow: 0 0 20px #00ff00; border: 2px solid #00ff00; }
+  100% { box-shadow: 0 0 20px #ff0000; border: 2px solid #ff0000; }
+}
+
+
+.first {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at center, #00ffff33 0%, #000 70%);
+  border: 2px solid #00ffff;
+  border-radius: 25px;
+  box-shadow: 0 0 25px #00ffff;
+  position: relative;
+}
+.second {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at center, #00ffff33 0%, #000 70%);
+  border: 2px solid #00ffff;
+  border-radius: 25px;
+  box-shadow: 0 0 25px #00ffff;
+  position: relative;
+}
+.third {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at center, #00ffff33 0%, #000 70%);
+  border: 2px solid #00ffff;
+  border-radius: 25px;
+  box-shadow: 0 0 25px #00ffff;
+  position: relative;
+}
+.fourth {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at center, #00ffff33 0%, #000 70%);
+  border: 2px solid #00ffff;
+  border-radius: 25px;
+  box-shadow: 0 0 25px #00ffff;
+  position: relative;
+}
+
+.first::after .second::after .third::after .fourth::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px solid #00ffff55;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #00ffff55 inset;
+}
+.first:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 30px var(--neon-pink), 0 0 60px var(--neon-pink);
+}
+@keyframes colorFlow {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
+.second:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 30px var(--neon-pink), 0 0 60px var(--neon-pink);
+}.third:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 30px var(--neon-pink), 0 0 60px var(--neon-pink);
+}.fourth:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 30px var(--neon-pink), 0 0 60px var(--neon-pink);
+}
+
+
