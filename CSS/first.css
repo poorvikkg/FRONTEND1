@@ -43,6 +43,9 @@
     display: flex;
   
 }
+.a1{
+  text-decoration: none;
+}
 .first{
     height: 300px;
     width:300px;
@@ -57,6 +60,7 @@
     justify-content: center;
     align-items: center;
     border: 3px solid red;
+    text-decoration: none;
      animation: glowShift 3s linear infinite;
     
 

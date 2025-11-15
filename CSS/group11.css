@@ -1,24 +1,74 @@
-.navbar{
-    height: 60px;
+.photo1{
     width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    padding-top: 70%;
+    background-image: url(../Images/chat1.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
 }
-.heading{
-    font-size: 40px;
-}
-.mainbody{
-    height: 1000px;
+.photo2{
     width: 100%;
-    background-color: green;
-    display: flex;
+    padding-top: 70%;
+    background-image: url(../Images/group12.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo3{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group13.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo4{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group14.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo5{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group21.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo6{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group22.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo7{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group23.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
+.photo8{
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../Images/group24.png);
+    background-size: cover;
+    background-position: top center; 
+    border: 5px solid black;
+    
+}
 
 
-}
-.para{
-     
-}
